@@ -5,7 +5,7 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  -[Added features](#added-features)
+  - [Added features](#added-features)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -32,10 +32,10 @@ Users should be able to:
 - Toggle the color scheme between light and dark mode *(optional)*
 
 
-###Added features
--A cancel button for when a region is selected to revert it back to "Filter by region"
--The detailed information about the country is being directed to an entirely different page
--User with dark mode on their devices meets the page in dark mode
+### Added features
+- A cancel button for when a region is selected to revert it back to "Filter by region"
+- The detailed information about the country is being directed to an entirely different page
+- User with dark mode on their devices meets the page in dark mode
 
 ### Screenshot
 

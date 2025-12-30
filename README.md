@@ -39,12 +39,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Add Screenshot](./screenshot.jpg)
+![Add Screenshot](./ezgif-5d3a7bbcc701fcc5.gif)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Mclakez/Rest-countries-API-website)
+- Live Site URL: (https://rest-countries-api-website.vercel.app/)
 
 ## My process
 I started by breaking down the design into components and built the layout using semantic HTML with a mobile-first approach.
@@ -60,21 +60,21 @@ Once the core functionality was working, I added the search, filter, and dark mo
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
--JavaScript (ES6+, Fetch API, async/await)
--localStorage for persistent data
+- JavaScript (ES6+, Fetch API, async/await)
+- LocalStorage for persistent data
 
 
 ### What I learned
 
--Data integrity vs UI rendering
+- Data integrity vs UI rendering
 
--Event delegation for dynamically created elements
+- Event delegation for dynamically created elements
 
--API integration and error handling: Fetch countries and their parameters with proper async/await and error checks.
+- API integration and error handling: Fetch countries and their parameters with proper async/await and error checks.
 
--The use of || in literal templates
+- The use of || in literal templates
 
--The use of Object.values() to get the currencies and languages ,since they are nested objects with different key value for different countries
+- The use of Object.values() to get the currencies and languages ,since they are nested objects with different key value for different countries
 ```js
 <li><span class="label">Currencies:</span> ${Object.values(country.currencies || {})[0].name || 'N/A'}</li>
         <li><span class="label">Languages:</span>${Object.values(country.languages || {}).join(', ')}</li>
@@ -122,11 +122,11 @@ let responses = await Promise.all(
 
 ### Useful resources
 
--Claude - reference for some new things i learnt
+- Claude - reference for some new things i learnt
 
--Scrimba Discord Channel - A community that answered some of my questions 
+- Scrimba Discord Channel - A community that answered some of my questions 
 
--Frontend Mentor Challenge – project design inspiration
+- Frontend Mentor Challenge – project design inspiration
 
 ## Author
 

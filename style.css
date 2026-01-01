@@ -332,6 +332,12 @@ svg {
     .back-button {
         margin-top: 2rem;
     }
+
+  .details-page {
+        padding-bottom: 1.5rem;
+        padding-right: 2rem;
+        overflow-y: auto;
+  }
     
     .country-details {
         display: grid;

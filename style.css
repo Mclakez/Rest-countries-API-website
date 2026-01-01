@@ -344,6 +344,7 @@ svg {
         grid-template-columns: 1fr 1fr;
         column-gap: 3rem;
         margin-block: 2rem;
+      margin-bottom: 4rem;
     }
     
     .country-details-lists {

@@ -114,6 +114,7 @@ let responses = await Promise.all(
 
 ### Continued development
 
+- Add loading state/ Loader
 - Working on how to use Promise.all better
 - Working on how to use map better
 - Working on how to use new Set better

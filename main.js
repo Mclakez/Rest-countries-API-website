@@ -19,8 +19,12 @@ let isDark = localStorage.getItem('theme')
 
 
 //Check local storage is set to dark mode
-if (isDark) {
-    rootEl.classList.add(isDark)
+if (isDark === "dark") {
+    rootEl.classList.add("dark")
+    rootEl.classList.remove("light")
+} else if(isDark === "light") {
+    rootEl.classList.add("light")
+    rootEl.classList.remove("dark")
 }
 
 
@@ -288,9 +292,11 @@ document.addEventListener('click', async (e) => {
 themeToggleBtn.addEventListener('click', () => {
     if (rootEl.classList.contains('dark')) {
         rootEl.classList.remove('dark')
+        rootEl.classList.add('light')
         localStorage.setItem('theme','light')
     }else {
         rootEl.classList.add('dark')
+        rootEl.classList.remove('light')
         localStorage.setItem('theme','dark')
     }
 })

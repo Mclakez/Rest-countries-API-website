@@ -286,19 +286,19 @@ svg {
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-  :root:not(.light) {
+  :root:not(.light):not(.dark) {
     --very-light-gray-bg: hsl(207, 26%, 17%);
     --white: hsl(209, 23%, 22%);             
     --very-dark-blue-text: hsl(0, 0%, 100%); 
     --dark-gray-input: hsl(0, 0%, 70%);
   }
   
-   :root:not(.light) .theme-toggle svg {
+   :root:not(.light):not(.dark) .theme-toggle svg {
     stroke: transparent;
     fill: white;
 }
 
-:root:not(.light) .theme-toggle {
+:root:not(.light):not(.dark) .theme-toggle {
     color: white;
 }
 

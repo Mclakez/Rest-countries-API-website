@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Added features
 - A cancel button for when a region is selected to revert it back to "Filter by region"
-- The detailed information about the country is being directed to an entirely different page
+- The detailed information about the country is on the same page
 - User with dark mode on their devices meets the page in dark mode
 
 ### Screenshot

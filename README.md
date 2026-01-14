@@ -114,12 +114,10 @@ let responses = await Promise.all(
 
 ### Continued development
 
-- Add loading state/ Loader
-- Working on how to use Promise.all better
-- Working on how to use map better
-- Working on how to use new Set better
-- Working on how to use Object.values() better
-- Refining Dark mode toggle
+- Adding loading states and skeleton loaders for better UX
+- Refactoring API logic for better readability and reuse
+- Improving performance and state handling
+- Refining the dark mode toggle experience
 
 ### Useful resources
 
